@@ -1,0 +1,123 @@
+/*STYLE GERAL*/
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+/*STYLE CONTAINER PING*/
+.ping {
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/*STYLE IMG DA LOGO*/
+.ping .logo {
+  margin: 3rem auto;
+  max-width: 80px;
+  text-align: center;
+}
+
+/*STYLE H1 DO CONTAINER PING
+<h1>We are launching <span>soon!</span></h1>
+*/
+.ping h1 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: hsl(0, 0%, 59%);
+  text-align: center;
+}
+
+/*STYLE DO SPAN DENTRO DO H1 DO CONTAINER PING*/
+.ping h1 > span {
+  font-weight: 700;
+  color: hsl(209, 33%, 12%);
+}
+
+/*STYLE DO P DO CONTAINER PING
+<p>Subscribe and get notified</p>
+*/
+.ping p {
+  font-size: 1.125rem;
+  color:hsl(209, 33%, 12%) ;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+/*STYLE FORM DO CONTAINER PING*/
+.ping form {
+  margin-top: 2rem;
+  margin-bottom: 6rem;
+  text-align: center;
+}
+
+/*STYLE DO INPUT DO TIPO EMAIL DO FORM*/
+.ping form input {
+  width: 350px;
+  opacity: .7;
+  padding: 1rem;
+  border-radius: 2rem;
+  border:1.6px solid hsl(223, 100%, 88%) ;
+}
+
+/*STYLE DO INPUT DO TIPO EMAIL EM ESTADO DE FOCO*/
+.ping form input:focus {
+  outline: none;
+}
+
+/*STYLE DO PLACEHOLDER DO INPUT DO TIPO EMAIL*/
+.ping form input::placeholder {
+  color: hsl(223, 100%, 88%);
+}
+
+/*STYLE DO BUTTON DO FORM
+<button>Notify Me</button>
+*/
+.ping form button {
+  color: white;
+  font-weight: 600;
+  background-color: hsl(223, 87%, 63%);
+  border: none;
+  border-radius: 2rem;
+  margin-left: .5rem;
+  padding: 1rem 3rem;
+}
+
+/*STYLE DA IMAGEM DASHBOARD*/
+.ping .dashboard {
+  width: 70%;
+  margin: 0 auto;
+}
+
+/*STYLE DO FOOTER*/
+.footer {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/*STYLE DAS SOCIAL-MEDIA*/
+.footer .social-media {
+  margin-top: 8rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.footer .social-media img {
+  width: 30px;
+}
+
+/*STYLE DO P DO FOOTER
+ <p>&copy; Copyright Ping. All rights reserved.</p>
+*/
+.footer p {
+  color: hsl(0, 0%, 59%);
+  text-align: center;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}

@@ -7,7 +7,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Ping coming soon page</title>
-
+  <link rel="stylesheet" href="./style.css">
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -15,14 +15,25 @@
   </style>
 </head>
 <body>
+  <section class="ping">
+    <img class="logo" src="./images/logo.svg" alt="logo">
+    <h1>We are launching <span>soon!</span></h1>
+    <p>Subscribe and get notified</p>
+    <form action="">
+      <input type="email" name="email" id="email" placeholder="Your email address...">
+      <button>Notify Me</button>
+    </form>
+    <img class="dashboard" src="./images/illustration-dashboard.png" alt="illustration dashboard">
+  </section><!--ping-->
 
-  We are launching soon!
-
-  Subscribe and get notified
-
-  Notify Me
-
-  &copy; Copyright Ping. All rights reserved.
+  <footer class="footer">
+    <div class="social-media">
+      <a href="#"><img src="./images/facebook-svgrepo-com.svg" alt="facebook"></a>
+      <a href="#"><img src="./images/twitter-svgrepo-com.svg" alt="twitter"></a>
+      <a href="#"><img src="./images/instagram-svgrepo-com.svg" alt="instagram"></a>
+    </div><!--social-media-->
+    <p>&copy; Copyright Ping. All rights reserved.</p>
+  </footer><!--footer-->
 
   <footer>
     <p class="attribution">
